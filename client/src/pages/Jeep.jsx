@@ -10,7 +10,7 @@ const Jeep = () => {
       <div className='grid grid-cols-3 gap-1' >
 <div className="m-2 group px-10 py-5 bg-white/10 rounded-lg flex flex-col items-center justify-center gap-2 relative after:absolute after:h-full after:bg-[#abd373] z-20 shadow-lg after:-z-20 after:w-full after:inset-0 after:rounded-lg transition-all duration-300 hover:transition-all hover:duration-300 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden cursor-pointer after:-translate-y-full after:hover:translate-y-0 [&amp;_p]:delay-200 [&amp;_p]:transition-all">
 
-< img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww" />
+< img src="https://edgecast-img.yahoo.net/mysterio/api/8932DF93AB17F2299C1BECA5C950943E52BA6C73EF17F50DF0E84CC4B20FD953/autoblog/resizefill_w788_h525;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/CAD20LES271A021001.jpg" />
 
 
   <p className="blueberry font-semibold text-gray-600 text-xs">
@@ -18,7 +18,7 @@ const Jeep = () => {
   </p>
   <div className="ordernow flex flex-row justify-between items-center w-full">
     <p className="ordernow-text text-[#abd373] font-semibold group-hover:text-gray-800">
-      $21.00
+      $9080.00
     </p>
     <p className="btun4 lg:inline-flex items-center gap-3 group-hover:bg-white/10 bg-[#abd373] shadow-[10px_10px_150px_#ff9f0d] cursor-pointer py-2 px-4 text-sm font-semibold rounded-full butn">
     <Link to="/ProductDetail">Order Now</Link>
@@ -29,7 +29,7 @@ const Jeep = () => {
 
 <div className="m-2 group px-10 py-5 bg-white/10 rounded-lg flex flex-col items-center justify-center gap-2 relative after:absolute after:h-full after:bg-[#abd373] z-20 shadow-lg after:-z-20 after:w-full after:inset-0 after:rounded-lg transition-all duration-300 hover:transition-all hover:duration-300 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden cursor-pointer after:-translate-y-full after:hover:translate-y-0 [&amp;_p]:delay-200 [&amp;_p]:transition-all">
 
-< img src="https://s3-prod-europe.autonews.com/s3fs-public/styles/width_792/public/maybach_1.jpg" />
+< img src="https://di-uploads-pod9.dealerinspire.com/paulytoyota/uploads/2023/01/Screenshot_9.jpg" />
 
 
   <p className="blueberry font-semibold text-gray-600 text-xs">
@@ -37,7 +37,7 @@ const Jeep = () => {
   </p>
   <div className="ordernow flex flex-row justify-between items-center w-full">
     <p className="ordernow-text text-[#abd373] font-semibold group-hover:text-gray-800">
-      $21.00
+      $9500.00
     </p>
     <p className="btun4 lg:inline-flex items-center gap-3 group-hover:bg-white/10 bg-[#abd373] shadow-[10px_10px_150px_#ff9f0d] cursor-pointer py-2 px-4 text-sm font-semibold rounded-full butn">
     <Link to="/ProductDetail">Order Now</Link>
@@ -48,7 +48,7 @@ const Jeep = () => {
 
 <div className="m-2 group px-10 py-5 bg-white/10 rounded-lg flex flex-col items-center justify-center gap-2 relative after:absolute after:h-full after:bg-[#abd373] z-20 shadow-lg after:-z-20 after:w-full after:inset-0 after:rounded-lg transition-all duration-300 hover:transition-all hover:duration-300 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden cursor-pointer after:-translate-y-full after:hover:translate-y-0 [&amp;_p]:delay-200 [&amp;_p]:transition-all">
 
-< img src="https://hips.hearstapps.com/hmg-prod/images/img-1484-jpg-649644d3c1386.jpg?crop=0.716xw:0.537xh;0.145xw,0.342xh&resize=1200:*" />
+< img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/2024_Honda_Prologue_Styling_Reve.jpg" />
 
 
   <p className="blueberry font-semibold text-gray-600 text-xs">
@@ -56,7 +56,7 @@ const Jeep = () => {
   </p>
   <div className="ordernow flex flex-row justify-between items-center w-full">
     <p className="ordernow-text text-[#abd373] font-semibold group-hover:text-gray-800">
-      $21.00
+      $8700.00
     </p>
     <p className="btun4 lg:inline-flex items-center gap-3 group-hover:bg-white/10 bg-[#abd373] shadow-[10px_10px_150px_#ff9f0d] cursor-pointer py-2 px-4 text-sm font-semibold rounded-full butn">
     <Link to="/ProductDetail">Order Now</Link>
