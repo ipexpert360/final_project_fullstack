@@ -1,20 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logos from '../assets/logo.png'
+
 
 const Navbar = () => {
   return (
     <div>
 
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">s
+<nav className="bg-black border-gray-200 dark:bg-black-900">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+            <img src={logos} class="h-8" alt="TMM Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TMM</span>
         </a>
         <div class="flex items-center space-x-6 rtl:space-x-reverse">
             <a href="tel:5541251234" class="text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
-            <a href="#" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+            <a href="./ContactUs" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Contact Us</a>
+            <a href="/Login" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
         </div>
     </div>
 </nav>
@@ -26,6 +29,9 @@ const Navbar = () => {
                     <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page"><Link to="/">Home</Link></a>
                 </li>
                 <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline"><Link to="/AboutUs">About Us</Link></a>
+                </li>
+                <li>
                     <a href="#" class="text-gray-900 dark:text-white hover:underline"><Link to="/Saloon">Saloon</Link></a>
                 </li>
                 <li>
@@ -34,6 +40,7 @@ const Navbar = () => {
                 <li>
                     <a href="#" class="text-gray-900 dark:text-white hover:underline"><Link to="/Jeep">Jeep</Link></a>
                 </li>
+                
             </ul>
         </div>
     </div>

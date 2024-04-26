@@ -18,7 +18,7 @@ const Home = () => {
   </p>
   <div className="ordernow flex flex-row justify-between items-center w-full">
     <p className="ordernow-text text-[#abd373] font-semibold group-hover:text-gray-800">
-      $21.00
+      $6000.00
     </p>
     <p className="btun4 lg:inline-flex items-center gap-3 group-hover:bg-white/10 bg-[#abd373] shadow-[10px_10px_150px_#ff9f0d] cursor-pointer py-2 px-4 text-sm font-semibold rounded-full butn">
       Order Now
