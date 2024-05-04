@@ -16,8 +16,9 @@ const Navbar = () => {
         </a>
         <div class="flex items-center space-x-6 rtl:space-x-reverse">
             <a href="tel:5541251234" class="text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
-            <a href="./ContactUs" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Contact Us</a>
-            <a href="/Login" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+            
+            <a href="/Login" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline"><Link to="/contactUs">Contact Us</Link></a>
+            <a href="/Login" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline"><Link to="/login">login</Link></a>
         </div>
     </div>
 </nav>
